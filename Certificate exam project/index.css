@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100px;
+    background: linear-gradient(92.04deg,#18184a 24.18%,#19398a 50.95%,#18184a 110.32%);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+    position: fixed;
+    z-index:4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img{
+    width:120px;
+   margin-left: 2px;
+    display:inline-block;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Balsamiq Sans", cursive;
+    color: var(--clr-neon);
+    margin:0;
+    position: relative;
+  }
+
+#menu-items-2{
+    margin-right:60px;
+}
+
+#menu-items-3{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+  .neon-button {
+    font-size: 1.2rem;
+    font-weight:700;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    background-color: cadetblue;
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+
+  .neon-button:hover,
+  .neon-button:focus {
+    color: rgb(30, 30, 102);
+    background-color: snow;
+  }
+
+
+.menu-button{
+    font-size: 1.4em;
+    margin-right:8px;
+}  
+
+#search-box{
+    background-color:white;
+    margin-right:60px;
+    padding:5px 10px;
+    border: 3px solid rgba(220, 20, 60, 0.473);
+    border-radius: 5px;
+    position: relative;
+}
+
+#search-text{
+    outline:none;
+    border:none;
+    background-color:white;
+    font-size:16px;
+}
+ 
+.clickers{
+    margin-right:10px;
+}
+
+
+#carosel{
+    height:80vh;
+    width: 100%;
+    z-index:1;
+    padding-top:100px;
+    box-sizing: border-box;
+}
+
+.item{
+    display:block;
+    height:82.5vh;
+    width: 100%;
+    padding: 15px 10px 0px 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner-img{
+    display: block;
+    height:80vh;
+}
+
+
+#aside-1{
+    display:none;
+    position:fixed;
+    top:0;
+    right:0;
+    width: 0%;
+    height:100vh;
+    background-color:white;
+    z-index:20;
+    transition: all 200ms ease;
+    border-radius: 10px;
+}
+
+#aside-2{
+    display:none;
+    position:fixed;
+    top:0;
+    right:0;
+    width: 0%;
+    height:100vh;
+    background-color:white;
+    z-index:20;
+    transition: all 200ms ease;
+    border-radius: 10px;
+}
+
+label{
+    display:inline-block;
+    font-size: 18px;
+    font-weight:500;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color: cadetblue;
+    margin-top:20px;
+}
+
+#aside-1{
+    background-color:wheat;
+    box-sizing:border-box;
+    text-align:center;
+    border: 2px solid rgb(106, 142, 207);
+    box-shadow: 0 0 5px slateblue;
+overflow: scroll;
+}
+
+.player-fields{
+    margin-top:5px;
+    width: 80%;
+    height:30px;
+    font-size:16px;
+    font-family: 'Cairo', sans-serif; 
+    outline:none;
+    border: 2px solid rgb(106, 142, 207);
+}
+
+.submit-btn{
+    font-size:16px;
+    font-weight: 700;
+    font-family: 'Cairo', sans-serif; 
+    outline:none;
+    border: 2px solid rgb(106, 142, 207);
+    padding: 10px 20px;
+    background-color:wheat;
+    color: rgb(167, 147, 36);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color:rgb(184, 212, 142);
+    color:rgb(138, 118, 118);
+}
+
+.close{
+    font-size: 1.5em;
+    margin-left:400px;
+}
+
+#aside-2{
+    background-color: wheat;
+    box-sizing:border-box;
+    text-align:center;
+    padding-top:10px;
+    border: 2px solid rgb(106, 142, 207);
+    box-shadow: 0px 0px 5px cadetblue;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    color: #ef4123;
+    font-weight: 900;
+    font-style: italic;
+    /* letter-spacing: 4px; */
+    font-family: 'Cairo', sans-serif;
+}
+
+#h1{
+    padding-top:120px;
+}
+#h2{
+    padding-top: 100px;
+}
+
+
+.access{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    margin-bottom: -40px;
+}
+
+
+.img-team{
+    width: 300px;
+    height:200px;
+    border-bottom: 2px solid goldenrod;
+    border-radius: 2px;
+}
+
+.card-team{
+    border: 5px solid rgba(71, 71, 136, 0.712);
+    background-color: rgb(241,241,241);
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    width:310px;
+    border-radius:4px;
+    box-shadow: 0 0 10px silver;
+    
+}
+
+.name-team{
+    font-weight: 600;
+    color: rgb(209, 43, 43);
+    text-align: center;
+}
+.cham-team{
+    font-weight: 600;
+    color: rgb(28, 33, 80);
+    text-align: center;
+}
+
+.play-team{
+    font-weight: 600;
+    color: rgb(20, 173, 173);
+    text-align: center;
+}
+
+.card-team:hover{
+    background-color: rgb(224, 212, 212);
+    border: 5px solid cadetblue;
+ transform: scale(1.10);
+ box-shadow: 1px 1px 5px palevioletred;
+}
+
+
+
+footer{
+    background-color: #18184a;
+    margin-top: 8%;
+    display: flex;
+    border-top: 5px solid silver;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+h4{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+
+.links{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    line-height: 1.4;
+
+}
+.links:hover{
+    color: gold;
+}
+
+.text{
+
+    color: honeydew;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.search-drop{
+    position: absolute;
+    top:108%;
+    left:-3px;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 4px solid gold;
+    color : gold;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 4x gold;
+    border-radius:4px;
+}
+
+.drop-icon{
+    width: 50px;
+    height:50px;
+}
+
+.player-drop{
+
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 4px solid gold;
+    color : gold;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 4x gold;
+    border-radius: 4px;
+}
+
